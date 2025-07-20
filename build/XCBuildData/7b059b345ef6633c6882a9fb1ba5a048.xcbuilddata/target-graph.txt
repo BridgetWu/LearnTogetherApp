@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'third-try' in project 'third-try' (no dependencies)

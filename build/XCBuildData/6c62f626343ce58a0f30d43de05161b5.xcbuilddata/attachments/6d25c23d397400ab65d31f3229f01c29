@@ -1,0 +1,148 @@
+{
+  "" : {
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/third-try-master.dia",
+    "emit-module-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/third-try-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/third-try-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/third-try-master.swiftdeps"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/AppDelegate.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/BasicViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/BasicViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/DraggableLabel.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/DraggableLabel~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/FeelingsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/FeelingsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Menu2Controller.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/Menu2Controller~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/MenuViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/MenuViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/ObjectsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ObjectsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/PrepositionsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/PrepositionsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/QuestionsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/QuestionsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/SceneDelegate.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/SettingsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/SettingsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/VerbsViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/VerbsViewController~partial.swiftmodule"
+  },
+  "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/ViewController.swift" : {
+    "const-values" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/build/third-try.build/Debug-iphonesimulator/third-try.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  }
+}

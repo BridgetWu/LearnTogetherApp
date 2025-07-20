@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageName8711759</string>
+			<key>relativePath</key>
+			<string>./8711759.imageset</string>
+			<key>swiftSymbol</key>
+			<string>_8711759</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAppBackground</string>
+			<key>relativePath</key>
+			<string>./app-background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>appBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAskingQuestions</string>
+			<key>relativePath</key>
+			<string>./asking-questions.imageset</string>
+			<key>swiftSymbol</key>
+			<string>askingQuestions</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBabyChickBackground</string>
+			<key>relativePath</key>
+			<string>./baby-chick-background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>babyChickBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBabySleeping</string>
+			<key>relativePath</key>
+			<string>./baby-sleeping.imageset</string>
+			<key>swiftSymbol</key>
+			<string>babySleeping</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBackground</string>
+			<key>relativePath</key>
+			<string>./background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>background</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBedtimeStory</string>
+			<key>relativePath</key>
+			<string>./bedtime-story.imageset</string>
+			<key>swiftSymbol</key>
+			<string>bedtimeStory</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBirdsSinging</string>
+			<key>relativePath</key>
+			<string>./birds-singing.imageset</string>
+			<key>swiftSymbol</key>
+			<string>birdsSinging</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBirthday</string>
+			<key>relativePath</key>
+			<string>./birthday.imageset</string>
+			<key>swiftSymbol</key>
+			<string>birthday</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyDrinkingMilk</string>
+			<key>relativePath</key>
+			<string>./boy-drinking-milk.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyDrinkingMilk</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyEatingBreakfast</string>
+			<key>relativePath</key>
+			<string>./boy-eating-breakfast.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyEatingBreakfast</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyFinishingHomework</string>
+			<key>relativePath</key>
+			<string>./boy-finishing-homework.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyFinishingHomework</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyGrowing</string>
+			<key>relativePath</key>
+			<string>./boy-growing.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyGrowing</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyJogging</string>
+			<key>relativePath</key>
+			<string>./boy-jogging.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyJogging</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyPlayingVideoGames</string>
+			<key>relativePath</key>
+			<string>./boy-playing-video-games.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyPlayingVideoGames</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyReadingAboutSpace</string>
+			<key>relativePath</key>
+			<string>./boy-reading-about-space.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyReadingAboutSpace</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoySleeping</string>
+			<key>relativePath</key>
+			<string>./boy-sleeping.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boySleeping</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyStudying</string>
+			<key>relativePath</key>
+			<string>./boy-studying.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyStudying</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBoyWithApple</string>
+			<key>relativePath</key>
+			<string>./boy-with-apple.imageset</string>
+			<key>swiftSymbol</key>
+			<string>boyWithApple</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBuildingSandcastle</string>
+			<key>relativePath</key>
+			<string>./building-sandcastle.imageset</string>
+			<key>swiftSymbol</key>
+			<string>buildingSandcastle</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBuildingSnowman</string>
+			<key>relativePath</key>
+			<string>./building-snowman.imageset</string>
+			<key>swiftSymbol</key>
+			<string>buildingSnowman</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBusDriver</string>
+			<key>relativePath</key>
+			<string>./bus-driver.imageset</string>
+			<key>swiftSymbol</key>
+			<string>busDriver</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCake</string>
+			<key>relativePath</key>
+			<string>./cake.imageset</string>
+			<key>swiftSymbol</key>
+			<string>cake</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCamping</string>
+			<key>relativePath</key>
+			<string>./camping.imageset</string>
+			<key>swiftSymbol</key>
+			<string>camping</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCashierAndALine</string>
+			<key>relativePath</key>
+			<string>./cashier-and-a-line.imageset</string>
+			<key>swiftSymbol</key>
+			<string>cashierAndALine</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCatBackground</string>
+			<key>relativePath</key>
+			<string>./cat-background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>catBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCaterpillarButterfly</string>
+			<key>relativePath</key>
+			<string>./caterpillar-butterfly.imageset</string>
+			<key>swiftSymbol</key>
+			<string>caterpillarButterfly</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCelebratingBirthday</string>
+			<key>relativePath</key>
+			<string>./celebrating-birthday.imageset</string>
+			<key>swiftSymbol</key>
+			<string>celebratingBirthday</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCelebratingChristmas</string>
+			<key>relativePath</key>
+			<string>./celebrating-christmas.imageset</string>
+			<key>swiftSymbol</key>
+			<string>celebratingChristmas</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameChristmasShopping</string>
+			<key>relativePath</key>
+			<string>./christmas-shopping.imageset</string>
+			<key>swiftSymbol</key>
+			<string>christmasShopping</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCookingDinner</string>
+			<key>relativePath</key>
+			<string>./cooking-dinner.imageset</string>
+			<key>swiftSymbol</key>
+			<string>cookingDinner</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDogAndFood</string>
+			<key>relativePath</key>
+			<string>./dog-and-food.imageset</string>
+			<key>swiftSymbol</key>
+			<string>dogAndFood</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDogChasingBall</string>
+			<key>relativePath</key>
+			<string>./dog-chasing-ball.imageset</string>
+			<key>swiftSymbol</key>
+			<string>dogChasingBall</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDriving</string>
+			<key>relativePath</key>
+			<string>./driving.imageset</string>
+			<key>swiftSymbol</key>
+			<string>driving</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDrivingPlane</string>
+			<key>relativePath</key>
+			<string>./driving-plane.imageset</string>
+			<key>swiftSymbol</key>
+			<string>drivingPlane</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDrivingToBeach</string>
+			<key>relativePath</key>
+			<string>./driving-to-beach.imageset</string>
+			<key>swiftSymbol</key>
+			<string>drivingToBeach</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameEatingPancake</string>
+			<key>relativePath</key>
+			<string>./eating-pancake.imageset</string>
+			<key>swiftSymbol</key>
+			<string>eatingPancake</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameExitButton</string>
+			<key>relativePath</key>
+			<string>./exit-button.imageset</string>
+			<key>swiftSymbol</key>
+			<string>exitButton</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFirefighter</string>
+			<key>relativePath</key>
+			<string>./firefighter.imageset</string>
+			<key>swiftSymbol</key>
+			<string>firefighter</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFireworks</string>
+			<key>relativePath</key>
+			<string>./fireworks.imageset</string>
+			<key>swiftSymbol</key>
+			<string>fireworks</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFlowersBlooming</string>
+			<key>relativePath</key>
+			<string>./flowers-blooming.imageset</string>
+			<key>swiftSymbol</key>
+			<string>flowersBlooming</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFriedEgg</string>
+			<key>relativePath</key>
+			<string>./fried-egg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>friedEgg</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlDoingHomework</string>
+			<key>relativePath</key>
+			<string>./girl-doing-homework.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlDoingHomework</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlDrawingFlower</string>
+			<key>relativePath</key>
+			<string>./girl-drawing-flower.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlDrawingFlower</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlEatingIceCream</string>
+			<key>relativePath</key>
+			<string>./girl-eating-ice-cream.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlEatingIceCream</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlOnComputer</string>
+			<key>relativePath</key>
+			<string>./girl-on-computer.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlOnComputer</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlPlayingToyCar</string>
+			<key>relativePath</key>
+			<string>./girl-playing-toy-car.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlPlayingToyCar</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlReading</string>
+			<key>relativePath</key>
+			<string>./girl-reading.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlReading</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlRidingBike</string>
+			<key>relativePath</key>
+			<string>./girl-riding-bike.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlRidingBike</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlScoobaDiving</string>
+			<key>relativePath</key>
+			<string>./girl-scooba-diving.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlScoobaDiving</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlShowering</string>
+			<key>relativePath</key>
+			<string>./girl-showering.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlShowering</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGirlSwimming</string>
+			<key>relativePath</key>
+			<string>./girl-swimming.imageset</string>
+			<key>swiftSymbol</key>
+			<string>girlSwimming</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGoingToSchool</string>
+			<key>relativePath</key>
+			<string>./going-to-school.imageset</string>
+			<key>swiftSymbol</key>
+			<string>goingToSchool</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGraduating</string>
+			<key>relativePath</key>
+			<string>./graduating.imageset</string>
+			<key>swiftSymbol</key>
+			<string>graduating</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGray</string>
+			<key>relativePath</key>
+			<string>./gray.imageset</string>
+			<key>swiftSymbol</key>
+			<string>gray</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGrowingTree</string>
+			<key>relativePath</key>
+			<string>./growing-tree.imageset</string>
+			<key>swiftSymbol</key>
+			<string>growingTree</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHavingPicnic</string>
+			<key>relativePath</key>
+			<string>./having-picnic.imageset</string>
+			<key>swiftSymbol</key>
+			<string>havingPicnic</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHelpingWithDinner</string>
+			<key>relativePath</key>
+			<string>./helping-with-dinner.imageset</string>
+			<key>swiftSymbol</key>
+			<string>helpingWithDinner</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHiking</string>
+			<key>relativePath</key>
+			<string>./hiking.imageset</string>
+			<key>swiftSymbol</key>
+			<string>hiking</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameInvestigatingCrime</string>
+			<key>relativePath</key>
+			<string>./investigating-crime.imageset</string>
+			<key>swiftSymbol</key>
+			<string>investigatingCrime</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLeavingClass</string>
+			<key>relativePath</key>
+			<string>./leaving-class.imageset</string>
+			<key>swiftSymbol</key>
+			<string>leavingClass</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLeavingWork</string>
+			<key>relativePath</key>
+			<string>./leaving-work.imageset</string>
+			<key>swiftSymbol</key>
+			<string>leavingWork</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoading</string>
+			<key>relativePath</key>
+			<string>./loading.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loading</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNext</string>
+			<key>relativePath</key>
+			<string>./next.imageset</string>
+			<key>swiftSymbol</key>
+			<string>next</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNight</string>
+			<key>relativePath</key>
+			<string>./night.imageset</string>
+			<key>swiftSymbol</key>
+			<string>night</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOptions</string>
+			<key>relativePath</key>
+			<string>./options.imageset</string>
+			<key>swiftSymbol</key>
+			<string>options</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePackingSuitcases</string>
+			<key>relativePath</key>
+			<string>./packing-suitcases.imageset</string>
+			<key>swiftSymbol</key>
+			<string>packingSuitcases</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePickingOranges</string>
+			<key>relativePath</key>
+			<string>./picking-oranges.imageset</string>
+			<key>swiftSymbol</key>
+			<string>pickingOranges</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlay</string>
+			<key>relativePath</key>
+			<string>./play.imageset</string>
+			<key>swiftSymbol</key>
+			<string>play</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlayingSoccer</string>
+			<key>relativePath</key>
+			<string>./playing-soccer.imageset</string>
+			<key>swiftSymbol</key>
+			<string>playingSoccer</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlayingVolleyball</string>
+			<key>relativePath</key>
+			<string>./playing-volleyball.imageset</string>
+			<key>swiftSymbol</key>
+			<string>playingVolleyball</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlayingWithToys</string>
+			<key>relativePath</key>
+			<string>./playing-with-toys.imageset</string>
+			<key>swiftSymbol</key>
+			<string>playingWithToys</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePrevious</string>
+			<key>relativePath</key>
+			<string>./previous.imageset</string>
+			<key>swiftSymbol</key>
+			<string>previous</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameQ1</string>
+			<key>relativePath</key>
+			<string>./q1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>q1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRaining</string>
+			<key>relativePath</key>
+			<string>./raining.imageset</string>
+			<key>swiftSymbol</key>
+			<string>raining</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRaining1</string>
+			<key>relativePath</key>
+			<string>./raining 1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>raining1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameReadingWithCat</string>
+			<key>relativePath</key>
+			<string>./reading-with-cat.imageset</string>
+			<key>swiftSymbol</key>
+			<string>readingWithCat</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRoastingMarshmallows</string>
+			<key>relativePath</key>
+			<string>./roasting-marshmallows.imageset</string>
+			<key>swiftSymbol</key>
+			<string>roastingMarshmallows</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRowingBoat</string>
+			<key>relativePath</key>
+			<string>./rowing-boat.imageset</string>
+			<key>swiftSymbol</key>
+			<string>rowingBoat</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSettings</string>
+			<key>relativePath</key>
+			<string>./settings.imageset</string>
+			<key>swiftSymbol</key>
+			<string>settings</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSkiing</string>
+			<key>relativePath</key>
+			<string>./skiing.imageset</string>
+			<key>swiftSymbol</key>
+			<string>skiing</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSkyBackground</string>
+			<key>relativePath</key>
+			<string>./sky-background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>skyBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSnowing</string>
+			<key>relativePath</key>
+			<string>./snowing.imageset</string>
+			<key>swiftSymbol</key>
+			<string>snowing</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSoccerGift</string>
+			<key>relativePath</key>
+			<string>./soccer-gift.imageset</string>
+			<key>swiftSymbol</key>
+			<string>soccerGift</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameStartingScreenBackground</string>
+			<key>relativePath</key>
+			<string>./starting-screen-background.imageset</string>
+			<key>swiftSymbol</key>
+			<string>startingScreenBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSunShining</string>
+			<key>relativePath</key>
+			<string>./sun-shining.imageset</string>
+			<key>swiftSymbol</key>
+			<string>sunShining</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSwimming</string>
+			<key>relativePath</key>
+			<string>./swimming.imageset</string>
+			<key>swiftSymbol</key>
+			<string>swimming</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTakingAQuiz</string>
+			<key>relativePath</key>
+			<string>./taking-a-quiz.imageset</string>
+			<key>swiftSymbol</key>
+			<string>takingAQuiz</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTakingPhotos</string>
+			<key>relativePath</key>
+			<string>./taking-photos.imageset</string>
+			<key>swiftSymbol</key>
+			<string>takingPhotos</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTreasureMap</string>
+			<key>relativePath</key>
+			<string>./treasure-map.imageset</string>
+			<key>swiftSymbol</key>
+			<string>treasureMap</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameVisitingGrandparents</string>
+			<key>relativePath</key>
+			<string>./visiting-grandparents.imageset</string>
+			<key>swiftSymbol</key>
+			<string>visitingGrandparents</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameVisitingZoo</string>
+			<key>relativePath</key>
+			<string>./visiting-zoo.imageset</string>
+			<key>swiftSymbol</key>
+			<string>visitingZoo</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWashingCar</string>
+			<key>relativePath</key>
+			<string>./washing-car.imageset</string>
+			<key>swiftSymbol</key>
+			<string>washingCar</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWashingClothes</string>
+			<key>relativePath</key>
+			<string>./washing-clothes.imageset</string>
+			<key>swiftSymbol</key>
+			<string>washingClothes</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWashingDishes</string>
+			<key>relativePath</key>
+			<string>./washing-dishes.imageset</string>
+			<key>swiftSymbol</key>
+			<string>washingDishes</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWatchingMovie</string>
+			<key>relativePath</key>
+			<string>./watching-movie.imageset</string>
+			<key>swiftSymbol</key>
+			<string>watchingMovie</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/bridgetwu/Desktop/20231205 copy 2/App Third Draft/third-try/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWatchingMovies</string>
+			<key>relativePath</key>
+			<string>./watching-movies.imageset</string>
+			<key>swiftSymbol</key>
+			<string>watchingMovies</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

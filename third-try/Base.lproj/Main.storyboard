@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8U-rx-3wh">
+                                <rect key="frame" x="450" y="594" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l8U-rx-3wh" secondAttribute="height" multiplier="1:1" priority="750" id="8M5-8Y-oK7"/>
+                                    <constraint firstAttribute="height" constant="180" id="GSf-sx-JoC"/>
+                                    <constraint firstAttribute="width" constant="180" id="Mwb-1z-4Yw"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="play"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="oE9-bj-HHL" kind="show" animates="NO" id="kMA-Lu-JDL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LearnTogether" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a75-YZ-gPZ">
+                                <rect key="frame" x="130" y="90" width="820" height="220"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="113"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.482942869" green="0.7271746764" blue="0.86894002530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="8" height="-1"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ba6-lc-Rql">
+                                <rect key="frame" x="41" y="606" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="R22-1v-hXg"/>
+                                    <constraint firstAttribute="width" constant="130" id="pfM-v4-anu"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="settings"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="go_to_optionsWithB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4p3-W4-FnS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a75-YZ-gPZ" secondAttribute="trailing" constant="130" id="41v-DT-pNz"/>
+                            <constraint firstItem="a75-YZ-gPZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="90" id="5EX-BD-dhb"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="a75-YZ-gPZ" secondAttribute="bottom" constant="500" id="6tC-58-8NH"/>
+                            <constraint firstItem="Ba6-lc-Rql" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="863-JB-EmC"/>
+                            <constraint firstItem="a75-YZ-gPZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="110" id="K3N-mg-xVJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ba6-lc-Rql" secondAttribute="bottom" constant="74" id="Shp-rQ-UsA"/>
+                            <constraint firstItem="l8U-rx-3wh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mXs-We-jpj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="l8U-rx-3wh" secondAttribute="bottom" constant="36" id="w1K-ds-BBF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gee-6X-eEq"/>
+                    <connections>
+                        <outlet property="optionsButton" destination="Ba6-lc-Rql" id="U51-eE-9xX"/>
+                        <outlet property="playButton" destination="l8U-rx-3wh" id="6oG-Yu-fSk"/>
+                        <segue destination="PGC-H1-FME" kind="show" identifier="go_to_options" animates="NO" id="Foi-fL-h0j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286.11111111111109" y="186.66666666666666"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="lYI-g0-YHc">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="FCX-KJ-uyG" customClass="MenuViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7yc-xO-ACv">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VmN-Vq-NI5">
+                                <rect key="frame" x="298" y="97" width="485" height="595"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="tgW-BE-53b"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="pgc-Nw-O2i"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="next" translatesAutoresizingMaskIntoConstraints="NO" id="J93-Cd-9Dx">
+                                <rect key="frame" x="901" y="312" width="179" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xTH-92-Jv0" appends="YES" id="LDN-HS-z6j"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eea-zU-fYg">
+                                <rect key="frame" x="38" y="31" width="121" height="116"/>
+                                <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="7yR-Xh-Bv6"/>
+                                    <constraint firstAttribute="width" constant="121" id="Gkp-vL-Tii"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="myUnwindActionWithUnwindSegue:" destination="FCX-KJ-uyG" eventType="touchUpInside" id="x5z-0H-39j"/>
+                                    <segue destination="oE9-bj-HHL" kind="show" animates="NO" id="g3k-Co-K9B"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="previous" translatesAutoresizingMaskIntoConstraints="NO" id="wr1-th-yNb">
+                                <rect key="frame" x="0.0" y="312" width="179" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jUs-m7-asa" appends="YES" id="fgt-jS-6rn"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xvk-Pu-9bh"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="Eea-zU-fYg" firstAttribute="leading" secondItem="xvk-Pu-9bh" secondAttribute="leading" constant="38" id="JkQ-qq-Mlx"/>
+                            <constraint firstItem="Eea-zU-fYg" firstAttribute="top" secondItem="xvk-Pu-9bh" secondAttribute="top" constant="31" id="atq-ZJ-HuC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jb4-e5-YFa"/>
+                    <connections>
+                        <outlet property="exitButton" destination="Eea-zU-fYg" id="CjC-ab-H2s"/>
+                        <outlet property="left_arrow" destination="wr1-th-yNb" id="5NN-AO-dPY"/>
+                        <outlet property="right_arrow" destination="J93-Cd-9Dx" id="d8F-ge-be4"/>
+                        <outlet property="scrollView" destination="VmN-Vq-NI5" id="gjP-PN-hkx"/>
+                        <segue destination="0Hc-ba-mGk" kind="show" identifier="go_to_questions" animates="NO" id="ChO-fN-sK5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9QX-3N-Rmn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jUs-m7-asa">
+                    <connections>
+                        <action selector="go_to_previous:" destination="FCX-KJ-uyG" id="Fr9-YS-kfo"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xTH-92-Jv0">
+                    <connections>
+                        <action selector="go_to_next:" destination="FCX-KJ-uyG" id="fox-Vb-uuS"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1130" y="186.66666666666666"/>
+        </scene>
+        <!--Menu2 View Controller-->
+        <scene sceneID="Kyu-AH-7lS">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="oE9-bj-HHL" customClass="Menu2ViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oaS-Yb-YKm">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfl-ek-tIg">
+                                <rect key="frame" x="209" y="215" width="244" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="233" id="58g-vl-vdH"/>
+                                    <constraint firstAttribute="width" constant="244" id="goX-bp-s9d"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ho7-Kq-rlP">
+                                <rect key="frame" x="627" y="215" width="244" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="233" id="Y3f-Lp-GK8"/>
+                                    <constraint firstAttribute="width" constant="244" id="uIk-Er-UdS"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="FCX-KJ-uyG" kind="show" animates="NO" id="4Nd-oW-lfA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTM-MB-h9P">
+                                <rect key="frame" x="38" y="31" width="121" height="116"/>
+                                <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="BWE-wM-qy1"/>
+                                    <constraint firstAttribute="height" constant="116" id="jd3-8B-7TN"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="dxd-Q4-xVx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Form sentences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaX-Cv-NrO">
+                                <rect key="frame" x="218" y="456" width="223" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cSc-gH-iZF"/>
+                                    <constraint firstAttribute="width" constant="223" id="wJ0-rn-0eC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="29"/>
+                                <color key="textColor" red="0.30887669211932856" green="0.46525216374140516" blue="0.56971019506454468" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn tenses &amp; sentences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZo-eL-OcU">
+                                <rect key="frame" x="589" y="456" width="358" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="29"/>
+                                <color key="textColor" red="0.30887669210000002" green="0.4652521637" blue="0.56971019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HG8-Uq-m0N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CTM-MB-h9P" firstAttribute="top" secondItem="HG8-Uq-m0N" secondAttribute="top" constant="31" id="3PP-oI-Eba"/>
+                            <constraint firstItem="LaX-Cv-NrO" firstAttribute="top" secondItem="Bfl-ek-tIg" secondAttribute="bottom" constant="8" id="ApS-nT-7VR"/>
+                            <constraint firstItem="LaX-Cv-NrO" firstAttribute="leading" secondItem="oaS-Yb-YKm" secondAttribute="leadingMargin" constant="198" id="QJY-sX-5mc"/>
+                            <constraint firstItem="ho7-Kq-rlP" firstAttribute="top" secondItem="oaS-Yb-YKm" secondAttribute="topMargin" constant="215" id="RGe-3s-GfV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ho7-Kq-rlP" secondAttribute="trailing" constant="189" id="ZeI-xR-iZL"/>
+                            <constraint firstItem="CTM-MB-h9P" firstAttribute="leading" secondItem="HG8-Uq-m0N" secondAttribute="leading" constant="38" id="fna-lb-KGg"/>
+                            <constraint firstItem="Bfl-ek-tIg" firstAttribute="top" secondItem="oaS-Yb-YKm" secondAttribute="topMargin" constant="215" id="k6C-MD-5HA"/>
+                            <constraint firstItem="DZo-eL-OcU" firstAttribute="top" secondItem="ho7-Kq-rlP" secondAttribute="bottom" constant="8" id="u5e-c4-M4M"/>
+                            <constraint firstItem="Bfl-ek-tIg" firstAttribute="leading" secondItem="oaS-Yb-YKm" secondAttribute="leadingMargin" constant="189" id="wCQ-B3-yRR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DZo-eL-OcU" secondAttribute="trailing" constant="113" id="zOR-dD-11I"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yFW-aQ-Dmj"/>
+                    <connections>
+                        <outlet property="exitButton" destination="CTM-MB-h9P" id="NBN-VL-5U5"/>
+                        <outlet property="option1" destination="Bfl-ek-tIg" id="iUi-IM-zUU"/>
+                        <outlet property="option2" destination="ho7-Kq-rlP" id="D33-Os-mD8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fr-n2-na6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426.66666666666663" y="186.66666666666666"/>
+        </scene>
+        <!--Adjectives View Controller-->
+        <scene sceneID="zfv-eS-wnB">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="cgd-jX-wvE" customClass="AdjectivesViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bL1-Qq-G3V">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HeF-vT-BCh">
+                                <rect key="frame" x="-531" y="0.0" width="1611" height="1174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZ4-wd-jvx">
+                                <rect key="frame" x="864" y="545" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Young">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youngButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="VHd-kI-7ls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GH-Hd-CTc">
+                                <rect key="frame" x="864" y="289" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Early">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="earlyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="CwK-RL-0WP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-lE-FIv">
+                                <rect key="frame" x="654" y="289" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clean">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cleanButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="8P3-kq-BEE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXs-UK-pfj">
+                                <rect key="frame" x="455" y="416" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Nice">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="niceButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="eZv-0q-Drn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M8-5u-oMV">
+                                <rect key="frame" x="455" y="673" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Mean">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="meanButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="hpC-dV-ONL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9w-5F-3Uk">
+                                <rect key="frame" x="255" y="546" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Short">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="shortButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="lpD-wk-tDd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGb-Nl-g1h">
+                                <rect key="frame" x="455" y="289" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Cute">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cuteButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="YI5-Xr-n73"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scn-91-Icr">
+                                <rect key="frame" x="654" y="418" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Dirty">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dirtyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="R1R-FZ-qJ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8j-yR-3p3">
+                                <rect key="frame" x="455" y="546" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Amazing">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="amazingButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="h1M-xT-YSL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCT-jA-Ic0">
+                                <rect key="frame" x="455" y="161" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Pretty">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="prettyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="em7-Te-5L8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcN-XL-bT3">
+                                <rect key="frame" x="455" y="36" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Handsome">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="handsomeButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="MuL-M0-Jp6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Weq-Lq-jNW">
+                                <rect key="frame" x="46" y="288" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Right">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="rightButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="kOG-Xe-KDv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aY6-XH-Hre">
+                                <rect key="frame" x="255" y="415" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tall">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tallButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="iHY-oL-e7f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxm-hf-cJR">
+                                <rect key="frame" x="864" y="672" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Old">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="oldButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="IeV-8y-wLn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5l-me-HIZ">
+                                <rect key="frame" x="255" y="672" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Funny">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="funnyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="J1d-ud-EzH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izG-au-uFM">
+                                <rect key="frame" x="654" y="38" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Hot">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="hotButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="QH9-uZ-UUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhe-k2-wI8">
+                                <rect key="frame" x="654" y="164" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Cold">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="coldButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="Dsz-NX-ZNc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sk-Tx-2NC">
+                                <rect key="frame" x="46" y="545" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Easy">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="easyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="F3c-LN-MLl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qB-od-YSr">
+                                <rect key="frame" x="654" y="545" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Neat">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="neatButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="yvl-h3-NFX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEI-sW-ubl">
+                                <rect key="frame" x="654" y="673" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Messy">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="messyButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="l8Z-YF-hag"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOe-rw-cUV">
+                                <rect key="frame" x="46" y="416" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Wrong">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="wrongButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="qbA-zE-Dnf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqc-OM-sG2">
+                                <rect key="frame" x="864" y="163" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Expensive">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="expensiveButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="NQ9-0m-eXu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAL-1M-XqG">
+                                <rect key="frame" x="46" y="161" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Bad">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="badButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="Gl6-IP-nWH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0t4-CC-H62">
+                                <rect key="frame" x="255" y="160" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Big">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="bigButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="rUL-DW-Lx0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5d-O2-bCf">
+                                <rect key="frame" x="255" y="287" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Small">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="smallButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="Wj1-jI-gJd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qi-7q-my7">
+                                <rect key="frame" x="864" y="36" width="170" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Cheap">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cheapButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="MSd-wC-dN7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGH-HR-8f4">
+                                <rect key="frame" x="864" y="418" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Late">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="lateButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="OtN-fr-FWM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yn4-z9-ohr">
+                                <rect key="frame" x="46" y="40" width="110" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="GMU-0I-YeE"/>
+                                    <constraint firstAttribute="height" constant="108" id="lRF-jy-JgA"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="exit-button" backgroundImage="exit-button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="myUnwindActionWithUnwindSegue:" destination="FCX-KJ-uyG" eventType="touchUpInside" id="F4G-y2-Ff9"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WYt-hS-v9N">
+                                <rect key="frame" x="46" y="40" width="110" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="WRV-dw-2hJ"/>
+                                    <constraint firstAttribute="width" constant="110" id="rAt-zn-Ot8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxr-eH-fE4">
+                                <rect key="frame" x="255" y="33" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Good">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="goodButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="6N1-HJ-P7X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlA-rg-ZqB">
+                                <rect key="frame" x="46" y="673" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Difficult">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="difficultButton:" destination="cgd-jX-wvE" eventType="touchUpInside" id="Lt9-O3-yeW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dc9-Dw-TpC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WYt-hS-v9N" firstAttribute="top" secondItem="bL1-Qq-G3V" secondAttribute="topMargin" constant="20" id="Ww3-aq-g4M"/>
+                            <constraint firstItem="Yn4-z9-ohr" firstAttribute="top" secondItem="bL1-Qq-G3V" secondAttribute="topMargin" constant="20" id="eWp-1A-GD3"/>
+                            <constraint firstItem="WYt-hS-v9N" firstAttribute="leading" secondItem="bL1-Qq-G3V" secondAttribute="leadingMargin" constant="26" id="mLX-Hs-yGB"/>
+                            <constraint firstItem="Yn4-z9-ohr" firstAttribute="leading" secondItem="bL1-Qq-G3V" secondAttribute="leadingMargin" constant="26" id="tWE-CO-Gr9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ril-oc-mEU"/>
+                    <connections>
+                        <outlet property="exit" destination="WYt-hS-v9N" id="oGY-Tq-7Qv"/>
+                        <outletCollection property="buttons" destination="xxr-eH-fE4" collectionClass="NSMutableArray" id="bXa-MI-Qh6"/>
+                        <outletCollection property="buttons" destination="xAL-1M-XqG" collectionClass="NSMutableArray" id="Ql7-Y4-cqk"/>
+                        <outletCollection property="buttons" destination="Weq-Lq-jNW" collectionClass="NSMutableArray" id="EVk-vi-PNa"/>
+                        <outletCollection property="buttons" destination="cOe-rw-cUV" collectionClass="NSMutableArray" id="jbA-aj-frP"/>
+                        <outletCollection property="buttons" destination="0Sk-Tx-2NC" collectionClass="NSMutableArray" id="OHK-1Y-O0d"/>
+                        <outletCollection property="buttons" destination="FlA-rg-ZqB" collectionClass="NSMutableArray" id="HGN-Qh-6Ts"/>
+                        <outletCollection property="buttons" destination="0t4-CC-H62" collectionClass="NSMutableArray" id="CVT-9D-wDF"/>
+                        <outletCollection property="buttons" destination="m5d-O2-bCf" collectionClass="NSMutableArray" id="3Cz-zc-j10"/>
+                        <outletCollection property="buttons" destination="aY6-XH-Hre" collectionClass="NSMutableArray" id="mFe-Xv-k4r"/>
+                        <outletCollection property="buttons" destination="t9w-5F-3Uk" collectionClass="NSMutableArray" id="64v-4A-LCd"/>
+                        <outletCollection property="buttons" destination="r5l-me-HIZ" collectionClass="NSMutableArray" id="q2M-es-yuj"/>
+                        <outletCollection property="buttons" destination="TcN-XL-bT3" collectionClass="NSMutableArray" id="yYE-pW-DMR"/>
+                        <outletCollection property="buttons" destination="oCT-jA-Ic0" collectionClass="NSMutableArray" id="0PQ-qq-H7T"/>
+                        <outletCollection property="buttons" destination="PGb-Nl-g1h" collectionClass="NSMutableArray" id="dIv-Rw-5qi"/>
+                        <outletCollection property="buttons" destination="kXs-UK-pfj" collectionClass="NSMutableArray" id="Pbv-ii-fsl"/>
+                        <outletCollection property="buttons" destination="j8j-yR-3p3" collectionClass="NSMutableArray" id="pC6-UE-KqZ"/>
+                        <outletCollection property="buttons" destination="4M8-5u-oMV" collectionClass="NSMutableArray" id="AgU-zK-qEI"/>
+                        <outletCollection property="buttons" destination="izG-au-uFM" collectionClass="NSMutableArray" id="efY-r9-224"/>
+                        <outletCollection property="buttons" destination="hhe-k2-wI8" collectionClass="NSMutableArray" id="pBu-YY-1Fs"/>
+                        <outletCollection property="buttons" destination="ih5-lE-FIv" collectionClass="NSMutableArray" id="21X-W0-HsN"/>
+                        <outletCollection property="buttons" destination="Scn-91-Icr" collectionClass="NSMutableArray" id="UrG-5J-A1i"/>
+                        <outletCollection property="buttons" destination="1qB-od-YSr" collectionClass="NSMutableArray" id="KoG-j4-B8A"/>
+                        <outletCollection property="buttons" destination="mEI-sW-ubl" collectionClass="NSMutableArray" id="YSS-dG-AHH"/>
+                        <outletCollection property="buttons" destination="9Qi-7q-my7" collectionClass="NSMutableArray" id="Da4-yy-ueX"/>
+                        <outletCollection property="buttons" destination="gqc-OM-sG2" collectionClass="NSMutableArray" id="Iba-Bm-1TJ"/>
+                        <outletCollection property="buttons" destination="0GH-Hd-CTc" collectionClass="NSMutableArray" id="vxh-QC-wDn"/>
+                        <outletCollection property="buttons" destination="VGH-HR-8f4" collectionClass="NSMutableArray" id="yTn-fA-Q8I"/>
+                        <outletCollection property="buttons" destination="PZ4-wd-jvx" collectionClass="NSMutableArray" id="Yxy-Ho-iM2"/>
+                        <outletCollection property="buttons" destination="mxm-hf-cJR" collectionClass="NSMutableArray" id="LGs-hr-nbx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pxe-ak-CsT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103.88888888888889" y="2374.8148148148148"/>
+        </scene>
+        <!--Questions View Controller-->
+        <scene sceneID="Rhf-fA-NaK">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="0Hc-ba-mGk" customClass="QuestionsViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="123" contentMode="scaleToFill" id="iqV-6Q-Wfd" userLabel="myView">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHl-UQ-5qS">
+                                <rect key="frame" x="-2" y="0.0" width="1082" height="810"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPd-n1-VGd">
+                                <rect key="frame" x="38" y="31" width="121" height="116"/>
+                                <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="TNp-1t-AYK"/>
+                                    <constraint firstAttribute="height" constant="116" id="f1u-bM-uAj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="wDg-sN-MB4" kind="unwind" animates="NO" unwindAction="myUnwindActionWithUnwindSegue:" id="X4Z-YR-NKD"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray" translatesAutoresizingMaskIntoConstraints="NO" id="peR-Wz-ajj">
+                                <rect key="frame" x="290" y="85" width="500" height="368"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="C3j-hc-AZS"/>
+                                    <constraint firstAttribute="height" constant="368" id="g3z-e9-sCa"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwS-5s-vzt">
+                                <rect key="frame" x="58" y="471" width="964" height="69"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="964" id="126-9M-hLV"/>
+                                    <constraint firstAttribute="height" constant="69" id="qVh-DT-dCR"/>
+                                </constraints>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugt-O6-2YO">
+                                <rect key="frame" x="424" y="569" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg8-Fc-mXN">
+                                <rect key="frame" x="229" y="690" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ix4-9I-wfc">
+                                <rect key="frame" x="218" y="632" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXB-aq-gs3">
+                                <rect key="frame" x="424" y="631" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkT-XT-Mki">
+                                <rect key="frame" x="218" y="569" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMp-NE-ZNa">
+                                <rect key="frame" x="240" y="748" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wog-qX-0Wz">
+                                <rect key="frame" x="430" y="747" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNf-pO-181">
+                                <rect key="frame" x="634" y="744" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkh-2T-hUr">
+                                <rect key="frame" x="430" y="689" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jc-N3-ytP">
+                                <rect key="frame" x="625" y="569" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cd-I2-rBP">
+                                <rect key="frame" x="625" y="628" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLD-9t-Iep">
+                                <rect key="frame" x="828" y="569" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMF-o2-vfW">
+                                <rect key="frame" x="625" y="686" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQK-YK-tWm">
+                                <rect key="frame" x="828" y="627" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlD-pU-sjL">
+                                <rect key="frame" x="869" y="20" width="161" height="53"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyq-ad-gZc">
+                                <rect key="frame" x="828" y="685" width="174" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elr-Ug-AIr">
+                                <rect key="frame" x="926" y="744" width="104" height="49"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="next_sentence:" destination="0Hc-ba-mGk" eventType="touchUpInside" id="QZl-iX-wGw"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xse-lG-Lob">
+                                <rect key="frame" x="384.5" y="105" width="311" height="328"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Job!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dq-1K-IYT">
+                                        <rect key="frame" x="62" y="41" width="197" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="42"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujB-QI-U7Y">
+                                        <rect key="frame" x="6" y="231" width="298" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Return To Menu" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background"/>
+                                            <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="33"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="otherUnwindAction:" destination="wDg-sN-MB4" eventType="touchUpInside" id="pRq-NO-tp6"/>
+                                            <action selector="unwindToMenu2:" destination="wDg-sN-MB4" eventType="touchUpInside" id="Gsa-NO-per"/>
+                                            <segue destination="wDg-sN-MB4" kind="unwind" animates="NO" unwindAction="unwindWhenFinishedWithUnwindSegue:" id="Vdd-8F-Jm7"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bY-cn-TkV">
+                                        <rect key="frame" x="27" y="146" width="257" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="328" id="T4o-8y-hzU"/>
+                                    <constraint firstAttribute="width" constant="311" id="qp9-qk-Bgz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HqO-vG-r6N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PlD-pU-sjL" firstAttribute="top" secondItem="iqV-6Q-Wfd" secondAttribute="topMargin" constant="20" id="05e-I2-Gz5"/>
+                            <constraint firstItem="LPd-n1-VGd" firstAttribute="top" secondItem="HqO-vG-r6N" secondAttribute="top" constant="31" id="2iw-Rc-TSh"/>
+                            <constraint firstItem="peR-Wz-ajj" firstAttribute="top" secondItem="iqV-6Q-Wfd" secondAttribute="topMargin" constant="85" id="3y2-jG-VbI"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="peR-Wz-ajj" secondAttribute="bottom" constant="357" id="5oe-qa-X7H"/>
+                            <constraint firstItem="Xse-lG-Lob" firstAttribute="top" secondItem="iqV-6Q-Wfd" secondAttribute="topMargin" constant="105" id="66J-7r-hZB"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="elr-Ug-AIr" secondAttribute="bottom" constant="17" id="85c-WL-IgV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gwS-5s-vzt" secondAttribute="trailing" constant="38" id="EGL-vr-8hv"/>
+                            <constraint firstItem="Xse-lG-Lob" firstAttribute="centerX" secondItem="iqV-6Q-Wfd" secondAttribute="centerX" id="GHp-Fg-5E3"/>
+                            <constraint firstAttribute="trailing" secondItem="PlD-pU-sjL" secondAttribute="trailing" constant="50" id="PKq-Ks-xtu"/>
+                            <constraint firstItem="peR-Wz-ajj" firstAttribute="leading" secondItem="iqV-6Q-Wfd" secondAttribute="leadingMargin" constant="270" id="XmN-b4-V3H"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Xse-lG-Lob" secondAttribute="bottom" constant="377" id="bSf-KI-SO6"/>
+                            <constraint firstItem="gwS-5s-vzt" firstAttribute="top" secondItem="peR-Wz-ajj" secondAttribute="bottom" constant="18" id="hGW-zU-tAz"/>
+                            <constraint firstItem="LPd-n1-VGd" firstAttribute="leading" secondItem="HqO-vG-r6N" secondAttribute="leading" constant="38" id="s9a-rC-gvk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="elr-Ug-AIr" secondAttribute="trailing" constant="30" id="sXJ-1O-3WI"/>
+                            <constraint firstItem="gwS-5s-vzt" firstAttribute="leading" secondItem="iqV-6Q-Wfd" secondAttribute="leadingMargin" constant="38" id="tdO-Ys-cxa"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="gwS-5s-vzt" secondAttribute="bottom" constant="270" id="vE4-gx-1X9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="peR-Wz-ajj" secondAttribute="trailing" constant="270" id="xGg-cn-dWG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C6K-eU-dvC"/>
+                    <connections>
+                        <outlet property="answer_area" destination="gwS-5s-vzt" id="S7M-d9-QkG"/>
+                        <outlet property="exitButton" destination="LPd-n1-VGd" id="gpb-de-Y2f"/>
+                        <outlet property="image_view" destination="peR-Wz-ajj" id="ORF-bI-VVy"/>
+                        <outlet property="next_button" destination="elr-Ug-AIr" id="gn6-5C-9aZ"/>
+                        <outlet property="return_to_menu" destination="Xse-lG-Lob" id="1y1-V3-fAk"/>
+                        <outlet property="scores" destination="PlD-pU-sjL" id="mq2-lX-ngS"/>
+                        <outlet property="total_score" destination="5bY-cn-TkV" id="ncL-U9-Ceu"/>
+                        <outletCollection property="word_placeholder" destination="MkT-XT-Mki" collectionClass="NSMutableArray" id="Gw2-Uo-pjW"/>
+                        <outletCollection property="word_placeholder" destination="Ix4-9I-wfc" collectionClass="NSMutableArray" id="BWX-3i-6xd"/>
+                        <outletCollection property="word_placeholder" destination="fg8-Fc-mXN" collectionClass="NSMutableArray" id="i1t-U0-UrB"/>
+                        <outletCollection property="word_placeholder" destination="Ugt-O6-2YO" collectionClass="NSMutableArray" id="Wgk-Yu-Y1C"/>
+                        <outletCollection property="word_placeholder" destination="IXB-aq-gs3" collectionClass="NSMutableArray" id="YCo-1h-TB3"/>
+                        <outletCollection property="word_placeholder" destination="xkh-2T-hUr" collectionClass="NSMutableArray" id="Pte-NK-5lA"/>
+                        <outletCollection property="word_placeholder" destination="6Jc-N3-ytP" collectionClass="NSMutableArray" id="Fb7-Tj-mZi"/>
+                        <outletCollection property="word_placeholder" destination="1cd-I2-rBP" collectionClass="NSMutableArray" id="WQG-67-edt"/>
+                        <outletCollection property="word_placeholder" destination="xMF-o2-vfW" collectionClass="NSMutableArray" id="GgT-Ct-bHo"/>
+                        <outletCollection property="word_placeholder" destination="RLD-9t-Iep" collectionClass="NSMutableArray" id="kcD-Zp-mO5"/>
+                        <outletCollection property="word_placeholder" destination="sQK-YK-tWm" collectionClass="NSMutableArray" id="IOF-Jd-sPU"/>
+                        <outletCollection property="word_placeholder" destination="NMp-NE-ZNa" collectionClass="NSMutableArray" id="F2L-Su-UnW"/>
+                        <outletCollection property="word_placeholder" destination="Wog-qX-0Wz" collectionClass="NSMutableArray" id="NmR-0G-HRj"/>
+                        <outletCollection property="word_placeholder" destination="JNf-pO-181" collectionClass="NSMutableArray" id="Jdq-9k-4c3"/>
+                        <outletCollection property="word_placeholder" destination="Nyq-ad-gZc" collectionClass="NSMutableArray" id="PSt-qw-D0b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jwv-qf-W4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="wDg-sN-MB4" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1787.7777777777778" y="186.66666666666666"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="8dt-6e-U6V">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="PGC-H1-FME" customClass="SettingsViewController" customModule="LearnTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZWh-Jq-RPs">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEE-Mz-9aP">
+                                <rect key="frame" x="310" y="90" width="460" height="272"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sp8-1v-lLc">
+                                        <rect key="frame" x="117.5" y="54.5" width="225" height="63.5"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="54"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.482942869" green="0.7271746764" blue="0.86894002530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="8" height="-1"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvx-Eb-KSD">
+                                        <rect key="frame" x="8" y="8" width="82" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button">
+                                            <color key="baseForegroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="go_back:" destination="PGC-H1-FME" eventType="touchUpInside" id="IzL-hk-Nqn"/>
+                                            <segue destination="kfk-9q-NV3" kind="unwind" animates="NO" unwindAction="myUnwindActionWithUnwindSegue:" id="bth-Hj-vwj"/>
+                                        </connections>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mc9-7r-qau">
+                                        <rect key="frame" x="163" y="142" width="245" height="30"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="slider_adjustWithS:" destination="PGC-H1-FME" eventType="valueChanged" id="olC-kt-7ox"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFN-a4-ozF">
+                                        <rect key="frame" x="24" y="136" width="94" height="39"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="ngs-Bx-YjI"/>
+                                            <constraint firstAttribute="width" constant="94" id="smv-uW-W5Y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.64313727620000005" green="0.84705877299999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="mc9-7r-qau" firstAttribute="top" secondItem="FEE-Mz-9aP" secondAttribute="top" constant="142" id="0Aa-7D-o5g"/>
+                                    <constraint firstAttribute="trailing" secondItem="mc9-7r-qau" secondAttribute="trailing" constant="54" id="4j3-h2-9f2"/>
+                                    <constraint firstItem="mc9-7r-qau" firstAttribute="leading" secondItem="QFN-a4-ozF" secondAttribute="trailing" constant="47" id="9OA-TW-X7E"/>
+                                    <constraint firstAttribute="height" constant="272" id="G1W-69-NAb"/>
+                                    <constraint firstItem="mc9-7r-qau" firstAttribute="leading" secondItem="FEE-Mz-9aP" secondAttribute="leading" constant="165" id="KVY-Iv-8YH"/>
+                                    <constraint firstAttribute="width" constant="460" id="SPh-iS-MYu"/>
+                                    <constraint firstAttribute="bottom" secondItem="mc9-7r-qau" secondAttribute="bottom" constant="101" id="YJq-bh-4R1"/>
+                                    <constraint firstItem="Sp8-1v-lLc" firstAttribute="centerX" secondItem="FEE-Mz-9aP" secondAttribute="centerX" id="c4X-g5-0ty"/>
+                                    <constraint firstItem="QFN-a4-ozF" firstAttribute="top" secondItem="FEE-Mz-9aP" secondAttribute="top" constant="136" id="uPV-gP-uAE"/>
+                                    <constraint firstItem="Sp8-1v-lLc" firstAttribute="centerY" secondItem="FEE-Mz-9aP" secondAttribute="centerY" constant="-50" id="xAu-pp-Xoq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O5C-D5-8tz"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FEE-Mz-9aP" firstAttribute="leading" secondItem="ZWh-Jq-RPs" secondAttribute="leadingMargin" constant="290" id="dOD-1i-60M"/>
+                            <constraint firstItem="FEE-Mz-9aP" firstAttribute="top" secondItem="ZWh-Jq-RPs" secondAttribute="topMargin" constant="90" id="e0D-09-9Fm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FEE-Mz-9aP" secondAttribute="trailing" constant="290" id="iZq-Bt-F1y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vb0-T7-cLI"/>
+                    <connections>
+                        <outlet property="exitButton" destination="fvx-Eb-KSD" id="RKe-6W-6Ig"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghP-mS-kZh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="kfk-9q-NV3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-286.11111111111109" y="886.66666666666663"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Nd-oW-lfA"/>
+        <segue reference="g3k-Co-K9B"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="exit-button" width="78" height="78"/>
+        <image name="gray" width="1920" height="1080"/>
+        <image name="next" width="179" height="164"/>
+        <image name="play" width="236" height="96"/>
+        <image name="previous" width="179" height="164"/>
+        <image name="settings" width="236" height="96"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
